@@ -1,0 +1,5 @@
+<header class="header">
+    <h1>Todo App</h1>
+    <input matInput class="input-style" placeholder="Add your task" autoFocus [value]="text" (keyup)="changeText($event)" (keyup.enter)="addTodo()">
+
+</header>

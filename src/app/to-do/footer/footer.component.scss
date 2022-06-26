@@ -1,0 +1,19 @@
+ul{
+    position: absolute;
+    top:0;
+    left:0;
+    text-align: left;
+    font-size: 20px;
+
+}
+li{
+    list-style: none;
+    padding:10px 5px;
+    border-bottom: 1px solid green;
+}
+.todo-count{
+        background-color: rgba(215, 250, 222, 0.784);
+        padding:2%;
+        font-size: 16px;
+        width:30%;
+}
